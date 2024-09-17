@@ -1,0 +1,6 @@
+services:
+  zstio-scraper:
+    build: .
+    environment:
+      - ZSTIO_USERNAME=${ZSTIO_USERNAME:-username}
+      - ZSTIO_PASSWORD=${ZSTIO_PASSWORD:-password}
